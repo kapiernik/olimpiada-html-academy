@@ -452,6 +452,10 @@ img {
   margin-top: 80px;
 }
 
+.advantages__separator_bottom{
+  margin-bottom: 40px;
+}
+
 .advantages__title{
   text-align: center;
   color: #fff;
@@ -482,6 +486,24 @@ img {
 .advantages__list-title_4, .advantages__list-subtitle_4{
   text-align: end;
   margin: 0 0 0 auto;
+}
+
+.advantages__link{
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.advantages__link:hover{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.advantages__image{
+  width: 250px;
+  height: auto;
+  position: absolute;
+  bottom: -5%;
+  left: 40%;
 }
 
 .our-groups {
