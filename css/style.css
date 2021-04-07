@@ -498,12 +498,34 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.advantages__image{
-  width: 250px;
+
+.advantages__image-web-prog,
+.advantages__image-analysis,
+.advantages__image-research,
+.advantages__image-boost{
+  width: 120px;
   height: auto;
   position: absolute;
-  bottom: -5%;
-  left: 40%;
+}
+
+.advantages__image-web-prog{
+  top: 255px;
+  right: 10%;
+}
+
+.advantages__image-analysis{
+  top: 730px;
+  right: 10%;
+}
+
+.advantages__image-research{
+  top: 490px;
+  left: 10%;
+}
+
+.advantages__image-boost{
+  bottom: 60px;
+  left: 10%;
 }
 
 .our-groups {
