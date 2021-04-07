@@ -585,6 +585,7 @@ img {
   margin-bottom: 30px;
   border-radius: 12px;
   border: 3px solid #7B97F6;
+  position: relative;
 }
 
 .our-groups__item:nth-of-type(3n) {
@@ -616,11 +617,37 @@ img {
   padding-left: 0;
 }
 
-.our-groups__text {
-  font-size: 16px;
-  line-height: 22px;
-  margin-top: 0;
-  margin-bottom: 8px;
+.our-groups__icon{
+  position: relative;
+}
+
+.our-groups__icon img{
+  transform-style: preserve-3d;
+  backface-visibility: visible;
+  transition: all 1s ease-in-out;
+}
+
+.our-groups__icon img:hover{
+  transform: rotateY(180deg);
+}
+
+.our-groups__button{
+  margin: 30px auto;
+}
+
+.our-groups__descr{
+  margin: 30px auto;
+  padding-inline-start: 0;
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.our-groups__descr li{
+  font-weight: 500;
+}
+
+.our-groups__descr li:not(:last-child){
+  margin-bottom: 5px;
 }
 
 .our-groups__price {
